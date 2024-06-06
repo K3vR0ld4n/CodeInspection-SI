@@ -1,0 +1,44 @@
+src/main/java/labcodeinspection/Email.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/labcodeinspection/Email.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/labcodeinspection/Email.java:5:	FieldNamingConventions:	FieldNamingConventions: The field name 'm_firstName' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/labcodeinspection/Email.java:5:	ImmutableField:	ImmutableField: Field 'm_firstName' may be declared final
+src/main/java/labcodeinspection/Email.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/labcodeinspection/Email.java:6:	FieldNamingConventions:	FieldNamingConventions: The field name 'm_lastName' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/labcodeinspection/Email.java:6:	ImmutableField:	ImmutableField: Field 'm_lastName' may be declared final
+src/main/java/labcodeinspection/Email.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/labcodeinspection/Email.java:7:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'password'
+src/main/java/labcodeinspection/Email.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/labcodeinspection/Email.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/labcodeinspection/Email.java:9:	ImmutableField:	ImmutableField: Field 'defaultpasswordLength' may be declared final
+src/main/java/labcodeinspection/Email.java:9:	LongVariable:	LongVariable: Avoid excessively long variable names like defaultpasswordLength
+src/main/java/labcodeinspection/Email.java:10:	AvoidFieldNameMatchingTypeName:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/labcodeinspection/Email.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/labcodeinspection/Email.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/labcodeinspection/Email.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'firstName' is not assigned and could be declared final
+src/main/java/labcodeinspection/Email.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'lastName' is not assigned and could be declared final
+src/main/java/labcodeinspection/Email.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/labcodeinspection/Email.java:18:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/labcodeinspection/Email.java:19:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/labcodeinspection/Email.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/labcodeinspection/Email.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'depChoice' is not assigned and could be declared final
+src/main/java/labcodeinspection/Email.java:23:	SwitchStmtsShouldHaveDefault:	SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches)
+src/main/java/labcodeinspection/Email.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'length' is not assigned and could be declared final
+src/main/java/labcodeinspection/Email.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'set' could be declared final
+src/main/java/labcodeinspection/Email.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'password' could be declared final
+src/main/java/labcodeinspection/Email.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'rand' could be declared final
+src/main/java/labcodeinspection/Email.java:46:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/labcodeinspection/Email.java:48:	UseLocaleWithCaseConversions:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/labcodeinspection/Email.java:48:	UseLocaleWithCaseConversions:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/labcodeinspection/EmailApp.java:5:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/labcodeinspection/EmailApp.java:5:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/labcodeinspection/EmailApp.java:7:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/labcodeinspection/EmailApp.java:8:	CloseResource:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/main/java/labcodeinspection/EmailApp.java:8:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sc' could be declared final
+src/main/java/labcodeinspection/EmailApp.java:8:	ShortVariable:	ShortVariable: Avoid variables with short names like sc
+src/main/java/labcodeinspection/EmailApp.java:10:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/labcodeinspection/EmailApp.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'firstName' could be declared final
+src/main/java/labcodeinspection/EmailApp.java:13:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/labcodeinspection/EmailApp.java:14:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'lastName' could be declared final
+src/main/java/labcodeinspection/EmailApp.java:16:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/labcodeinspection/EmailApp.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'depChoice' could be declared final
+src/main/java/labcodeinspection/EmailApp.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
