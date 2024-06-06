@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2024-06-06T18:48:44.313">
+<file name="/home/kev-roldan/DiscoWindows/Users/Usuario/Desktop/Semestres ESPOL/2024-PAO-1/ISoftware_II/Talleres/code_Inspection/CodeInspection-SI/src/main/java/labcodeinspection/Email.java">
+<violation beginline="6" endline="6" begincolumn="24" endcolumn="33" rule="ImmutableField" ruleset="Design" package="labcodeinspection" class="Email" variable="m_lastName" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'm_lastName' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="7" endline="7" begincolumn="24" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="labcodeinspection" class="Email" variable="password" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'password'
+</violation>
+<violation beginline="9" endline="9" begincolumn="21" endcolumn="41" rule="ImmutableField" ruleset="Design" package="labcodeinspection" class="Email" variable="defaultpasswordLength" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'defaultpasswordLength' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="23" endline="33" begincolumn="17" endcolumn="17" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="labcodeinspection" class="Email" method="setDeparment" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+Switch statements should have a default label
+</violation>
+</file>
+</pmd>
