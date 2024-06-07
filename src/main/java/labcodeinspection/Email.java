@@ -2,7 +2,7 @@ package labcodeinspection;
 
 public class Email {
 
-	private String m_firstName;//NOPMD This file will be manipulated later
+	private String m_firstName;
 	private String m_lastName;
 	private String password = null;
 	private String department;
