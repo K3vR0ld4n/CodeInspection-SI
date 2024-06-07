@@ -2,5 +2,12 @@ src/main/java/labcodeinspection/Email.java:5:	ImmutableField:	ImmutableField: Fi
 src/main/java/labcodeinspection/Email.java:6:	ImmutableField:	ImmutableField: Field 'm_lastName' may be declared final
 src/main/java/labcodeinspection/Email.java:7:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'password'
 src/main/java/labcodeinspection/Email.java:9:	ImmutableField:	ImmutableField: Field 'defaultpasswordLength' may be declared final
+src/main/java/labcodeinspection/Email.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/labcodeinspection/Email.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/labcodeinspection/Email.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
 src/main/java/labcodeinspection/Email.java:23:	SwitchStmtsShouldHaveDefault:	SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches)
-src/main/java/labcodeinspection/EmailApp.java:6:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/labcodeinspection/Email.java:46:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/labcodeinspection/Email.java:48:	UseLocaleWithCaseConversions:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/labcodeinspection/Email.java:48:	UseLocaleWithCaseConversions:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/labcodeinspection/EmailApp.java:5:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/labcodeinspection/EmailApp.java:7:	CommentRequired:	CommentRequired: Public method and constructor comments are required
