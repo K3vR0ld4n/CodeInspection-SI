@@ -1,24 +1,42 @@
 package labcodeinspection;
 
+import java.util.Locale;
+
 public class Email {
 
-	private String m_firstName;
-	private String m_lastName;
-	private String password = null;
+	private final String m_firstName;
+	private final String m_lastName;
+	private String password;
 	private String department;
-	private int defaultpasswordLength = 8;
+	private final int defaultpasswordLength = 8;
 	private String email;
 
+	/**
+	 * Constructs an Email object with the specified first and last names.
+	 *
+	 * @param firstName the first name of the user
+	 * @param lastName  the last name of the user
+	 */
 	public Email(String firstName, String lastName) {
 		this.m_firstName = firstName;
 		this.m_lastName = lastName;
 	}
 
+	/**
+	 * Displays the user's information, including first name, last name, department,
+	 * email, and password.
+	 */
 	public void showInfo() {
 		System.out.println("\nFIRST NAME= " + m_firstName + "\nLAST NAME= " + m_lastName);
 		System.out.println("DEPARMENT= " + department + "\nEMAIL= " + email + "\nPASSWORD= " + password);
 	}
 
+	/**
+	 * Sets the department based on the department choice code.
+	 *
+	 * @param depChoice the department choice code (1 for sales, 2 for development,
+	 *                  3 for accounting)
+	 */
 	public void setDeparment(int depChoice) {
 		switch (depChoice) {
 		case 1:
@@ -29,6 +47,9 @@ public class Email {
 			break;
 		case 3:
 			this.department = "acct";
+			break;
+		default:
+			this.department = "unknown";
 			break;
 		}
 	}
@@ -43,9 +64,14 @@ public class Email {
 		return new String(password);
 	}
 
+	/**
+	 * Generates the email address and password for the user. The email address is
+	 * created by combining the user's first and last names with the department
+	 * name.
+	 */
 	public void generateEmail() {
 		this.password = this.randomPassword(this.defaultpasswordLength);
-		this.email = this.m_firstName.toLowerCase() + this.m_lastName.toLowerCase() + "@" + this.department
+		this.email = this.m_firstName.toLowerCase(Locale.ROOT) + this.m_lastName.toLowerCase(Locale.ROOT) + "@" + this.department
 				+ ".espol.edu.ec";
 	}
 }
